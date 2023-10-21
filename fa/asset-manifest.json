@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/polish-b1-simulator/fa/static/css/main.1483228c.css",
-    "main.js": "/polish-b1-simulator/fa/static/js/main.d06bbe3f.js",
+    "main.js": "/polish-b1-simulator/fa/static/js/main.bb8365e2.js",
     "static/media/SFNSDisplay-Semibold.otf": "/polish-b1-simulator/fa/static/media/SFNSDisplay-Semibold.b1cbfd8df20ade660469.otf",
     "static/media/SFNSDisplay-Medium.otf": "/polish-b1-simulator/fa/static/media/SFNSDisplay-Medium.0d6a447cb6bea27ee045.otf",
     "static/media/KaTeX_AMS-Regular.ttf": "/polish-b1-simulator/fa/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
@@ -66,10 +66,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/polish-b1-simulator/fa/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/polish-b1-simulator/fa/index.html",
     "main.1483228c.css.map": "/polish-b1-simulator/fa/static/css/main.1483228c.css.map",
-    "main.d06bbe3f.js.map": "/polish-b1-simulator/fa/static/js/main.d06bbe3f.js.map"
+    "main.bb8365e2.js.map": "/polish-b1-simulator/fa/static/js/main.bb8365e2.js.map"
   },
   "entrypoints": [
     "static/css/main.1483228c.css",
-    "static/js/main.d06bbe3f.js"
+    "static/js/main.bb8365e2.js"
   ]
 }

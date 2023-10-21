@@ -1,0 +1,1240 @@
+- title: Polish B1 Sample Exam (5 Parts)
+  revision: 1
+  resources:
+    - path: "./b1_thumbnail.png"
+      key: b1_thumbnail
+    - path: "./mowienie_task2.png"
+      key: mowienie_task2
+    - path: "./writing_task2.png"
+      key: writing_task2
+    - path: "./mowienie_task.mp3"
+      key: mowienie_task
+  attachmentsListId:
+    - "{{resource:b1_thumbnail}}"
+  description: >
+    Polish B1 exam is an state exam provided by NAWA in Poland. You might need this certificate
+    for getting permanent residence or citizenship in Poland.
+
+  format: POLISH_B1_STANDARD
+  sections:
+    - title: sluchanie
+      uniqueGroupIdentifier: listening
+      format: POLISH_B1_LISTENNING
+      header: >
+        <div class="polish-b1-listenning-intro">
+        <div>
+          © Państwowa Komisja ds. Poświadczania Znajomości
+          <br /> Języka Polskiego jako Obcego
+        </div>
+
+        <div class="section-title">ROZUMIENIE ZE SŁUCHU</div>
+        <div class="level">B1</div>
+        <div class="count-tasks">LICZBA ZADAŃ: 5</div>
+        <div class="tasks-time">CZAS: 25 minut</div>
+        <div class="name-and-lastname">Imię i nazwisko: _______________</div>
+        <div class="task-footer-info">
+          Po upływie 25 minut podpisane testy zostaną zebrane i nastąpi
+          przerwa przed dalszą częścią egzaminu.
+        </div>
+ 
+        </div>
+
+      attachmentsListId:
+        - "{{resource:mowienie_task}}"
+      tasks:
+        - title: >
+            Proszę uważnie słuchać tego nagrania i zaznaczać właściwe odpowiedzi. 
+            Uwaga! Nagranie zostanie odtworzone <i>tylko jeden raz!</i>
+          format: MULTI_SHORT_QUESTION
+          questions:
+            - title: Ta wypowiedź jest typowa
+              isPreview: 1
+              choices:
+                - content: na dworcu autobusowym.
+                - content: na dworcu kolejowym.
+                  isCorrect: 1
+                - content: w kolejce górskiej.
+            - title: Ta wypowiedź jest typowa
+              choices:
+                - content: w tramwaju.
+                  isCorrect: 1
+                - content: w kinie.
+                - content: w muzeum.
+            - title: Ta wypowiedź jest typowa
+              choices:
+                - content: w sklepie.
+                - content: u dentysty.
+                - content: w aptece.
+                  isCorrect: 1
+            - title: Ta wypowiedź jest typowa
+              choices:
+                - content: w salonie Bingo.
+                - content: w punkcie LOTTO.
+                - content: w szatni.
+                  isCorrect: 1
+            - title: Ta wypowiedź jest typowa
+              choices:
+                - content: w autobusie.
+                - content: w taksówce.
+                  isCorrect: 1
+                - content: w pociągu.
+            - title: Ta wypowiedź jest typowa podczas
+              choices:
+                - content: zakupów.
+                - content: posiłku.
+                  isCorrect: 1
+                - content: zebrania.
+            - title: "Ta wypowiedź oznacza :"
+              choices:
+                - content: Tak!
+                  isCorrect: 1
+                - content: Nie!
+                - content: Nigdy!
+            - title: Ta wypowiedź oznacza, że
+              choices:
+                - content: mam jutro czas.
+                - content: spotkamy się jutro.
+                - content: muszę to zrobić do jutra.
+                  isCorrect: 1
+            - title: "Ta wypowiedź oznacza:"
+              choices:
+                - content: Nie wiem, dokąd idziesz.
+                - content: Nie rozumiem.
+                  isCorrect: 1
+                - content: Chodź ze mną.
+            - title: Ta wypowiedź oznacza, że
+              choices:
+                - content: nic nie wiem na ten temat.
+                - content: nie chcę o tym mówić.
+                  isCorrect: 1
+                - content: nie rozumiem tego tematu.
+            - title: Ta wypowiedź oznacza, że
+              choices:
+                - content: rozmawiam z dyrektorem.
+                - content: proszę o rozmowę z dyrektorem.
+                  isCorrect: 1
+                - content: wołam dyrektora.
+            - title: Ta wypowiedź oznacza, że kupuję bilet
+              choices:
+                - content: w obie strony.
+                  isCorrect: 1
+                - content: tylko powrotny.
+                - content: w jedną stronę.
+            - title: "Ta wypowiedź oznacza:"
+              choices:
+                - content: Dokąd idziesz?
+                  isCorrect: 1
+                - content: Co wybrałeś?
+                - content: Jakie są wyniki wyborów?
+            - title: Ta wypowiedź to
+              choices:
+                - content: odmowa.
+                - content: zaproszenie.
+                  isCorrect: 1
+                - content: zawiadomienie.
+            - title: Tę wypowiedź można najczęściej usłyszeć
+              choices:
+                - content: w sklepie.
+                  isCorrect: 1
+                - content: przy stole.
+                - content: nad morzem.
+        - title: >
+            Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym
+            przykładem. Uwaga! Nagranie zostanie odtworzone dwa razy.
+          instruction: Proszę wpisać brakujące słowa.
+          format: FILL_IN_THE_BLANK_TYPE
+
+          content: >
+            Dzień dobry Państwu. Są tacy {item}, którzy od dzieciństwa
+            {item} wiek dojrzały po starość mieszkają w jednej miejscowości,
+            nieraz też i w jednym domu, natomiast są {item}
+            rzesze tych, którzy po
+            osiągnięciu pewnego wieku zmieniają miejsce zamieszkania, mieszkają w internacie, uczą się,
+            {item}, później zawierają związek małżeński i gdzieś tam swoje
+            pierwsze mieszkanie zaczynają meblować. Proszę chwilę pomyśleć o tym
+            {item} pierwszym mieszkaniu. Kiedy państwo tam zamieszkali, pewnie
+            były świeżo pomalowane ściany, zawsze były pewne pomysły na takie czy inne
+            umeblowanie, czy takie czy inne pomysły na to, co się {item} na
+            ścianach. Bo oczywiście mijają lata, pięć, dziesięć, piętnaście lat i człowiek się zżywa z tymi
+            czterema ścianami, ale zawsze był ten {item}, kiedy po raz pierwszy
+            zobaczyło się te cztery ściany, przysłowiowe, widok z okna, który nam
+            {item} przez tyle lat. Warto pomyśleć o tym miejscu, w którym
+            mieszkamy.
+
+          questions:
+            - isPreview: 1
+              choices:
+                - correctAnswer: ludzie
+            - choices:
+                - correctAnswer: przez
+            - choices:
+                - correctAnswer: całe
+            - choices:
+                - correctAnswer: studiują
+            - choices:
+                - correctAnswer: swoim
+            - choices:
+                - correctAnswer: Powiesi
+            - choices:
+                - correctAnswer: moment
+            - choices:
+                - correctAnswer: towarzyszy
+        - title: >
+            Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie
+            z podanym przykładem. Uwaga! Nagranie zostanie odtworzone dwa razy.
+          instruction: Proszę zaznaczyć właściwe odpowiedzi.
+          format: MULTI_LONG_QUESTION
+          questions:
+            - title: Ten tekst mówi o podróży
+              isPreview: 1
+              choices:
+                - content: balonem.
+                  isCorrect: 1
+                - content: samolotem.
+                - content: statkiem.
+            - title: W podróży uczestniczyły
+              choices:
+                - content: dwie studentki.
+                - content: starsze panie.
+                  isCorrect: 1
+                - content: chińskie uczennice.
+            - title: Podróż została zorganizowana przez
+              choices:
+                - content: firmę transportową.
+                - content: jedną ze stacji telewizyjnych.
+                - content: producenta herbaty
+                  isCorrect: 1
+            - title: Kobiety są w dobrej kondycji fizycznej, bo
+              choices:
+                - content: uprawiają sport.
+                - content: piją herbatę.
+                  isCorrect: 1
+                - content: jedzą zdrowo.
+            - title: Lot trwał
+              choices:
+                - content: 30 minut.
+                  isCorrect: 1
+                - content: 50 minut.
+                - content: godzinę.
+            - title: Kobiety całe życie
+              choices:
+                - content: wiele podróżowały.
+                - content: ciężko pracowały.
+                  isCorrect: 1
+                - content: latały samolotem.
+        - title: >
+            Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie
+            z podanym przykładem. Uwaga! Nagranie zostanie odtworzone dwa razy.
+          instruction: Proszę zaznaczyć, czy podane zdania są prawdziwe – P, czy fałszywe – F.
+          format: BOOLEAN_TASK
+
+          questions:
+            - title: To już ostatnie wydanie konkursu radiowego.
+              type: boolean
+              isPreview: 1
+              isCorrect: 1
+            - title: Konkurs mogą wygrać dwie osoby
+              type: boolean
+              isCorrect: 0
+            - title: Nagrodą w konkursie jest wyjazd do Sosnowca.
+              type: boolean
+              isCorrect: 0
+            - title: Wycieczka będzie trwać kilka dni.
+              type: boolean
+              isCorrect: 1
+            - title: Współorganizatorem konkursu jest Telewizja Polska.
+              type: boolean
+              isCorrect: 0
+            - title: Pytania dotyczą Unii Europejskiej.
+              type: boolean
+              isCorrect: 1
+            - title: Według redaktora pytania konkursowe są dość trudne.
+              type: boolean
+              isCorrect: 1
+        - title: >
+            Proszę uważnie słuchać tego nagrania i wykonywać zadanie zgodnie z podanym
+            przykładem. Uwaga! Nagranie zostanie odtworzone dwa razy.
+          instruction: >
+            Proszę połączyć wypowiedzi z kolumny I z wypowiedziami z kolumny II.
+            Proszę wpisać odpowiedzi do tabelki.
+          format: CROSS_WORD
+          questions:
+            - title: opłata paszportowa w wysokości 140 zł
+              isPreview: 1
+              choices:
+                - content: paszport dla dorosłych na 10 lat
+            - title: opłata paszportowa w wysokości 30 zł
+              choices:
+                - content: paszport dla dzieci w wieku do 7 lat
+            - title: opłata paszportowa w wysokości 60 zł
+              choices:
+                - content: paszport dla dzieci, które nie mają jeszcze 13 lat
+            - title: opłata paszportowa w wysokości 45 zł
+              choices:
+                - content: paszport tymczasowy dla dorosłych
+            - title: paszport bez opłaty
+              choices:
+                - content: paszport dla osób, które mają więcej niż 70 lat
+            - title: 50% ulgi w opłacie paszportowej
+              choices:
+                - content: paszport dla emerytów i rencistów
+    - title: rozumienie tesktu
+      uniqueGroupIdentifier: reading
+      header: >
+        <div class="polish-b1-listenning-intro">
+        <div>
+          © Państwowa Komisja ds. Poświadczania Znajomości
+          <br /> Języka Polskiego jako Obcego
+        </div>
+
+        <div class="section-title">ROZUMIENIE TEKSTÓW PISANYCH</div>
+        <div class="level">B1</div>
+        <div class="count-tasks">LICZBA ZADAŃ: 5</div>
+        <div class="tasks-time">CZAS: 45 minut</div>
+        <div class="name-and-lastname">Imię i nazwisko: _______________</div>
+        <div class="task-footer-info">
+          Po upływie 45 minut podpisane testy zostaną zebrane i nastąpi
+          przerwa przed dalszą częścią egzaminu.
+        </div>
+
+        
+        </div>
+      format: POLISH_B1_READING
+      tasks:
+        - title: I. Proszę przeczytać akapity i zaznaczyć właściwe odpowiedzi zgodnie z podanym przykładem.
+          format: MULTI_LONG_QUESTION
+          questions:
+            - body: >
+                Letni hotel dla zwierząt to już nic nowego. Jeśli wyjeżdżamy na urlop, a nie mamy kogoś,
+                kto mógłby się zająć naszymi kwiatkami, możemy zostawić je w hotelu dla roślin. Gdy nasze
+                kwiaty nie lubią zmian, możemy wynająć firmę, która będzie dbać o nie na miejscu.
+              title: "Ten tekst informuje, że:"
+              isPreview: 1
+              choices:
+                - content: hotele dla zwierząt zaopiekują się również kwiatami.
+                - content: specjalne firmy mogą dbać o kwiaty i zwierzęta w domu.
+                - content: rośliny można oddać do hotelu.
+                  isCorrect: 1
+            - body: >
+                Każdy, kto będzie chciał skorzystać z Internetu, będzie mógł to zrobić w kiosku
+                internetowym. Na razie jest ich kilka, ale wkrótce mają się znajdować w wielu miejscach
+                w kraju.
+              title: "Ten tekst informuje, że: "
+              choices:
+                - content: kioski internetowe są popularne w całym kraju.
+                - content: w kiosku z gazetami można skorzystać z Internetu.
+                  isCorrect: 1
+                - content: kioski internetowe oferują dostęp do Internetu.
+            - body: >
+                Kluby aktywnego poszukiwania pracy są jedną z form pomocy dla bezrobotnych. Mają
+                one za zadanie pobudzić ich i zmotywować do bardziej aktywnego poszukiwania pracy oraz
+                wzbogacić o potrzebne wiadomości i umiejętności.
+              title: "Z tego tekstu wynika, że kluby:"
+              choices:
+                - content: dają bezrobotnym pracę.
+                - content: uczą, jak efektywniej poszukiwać pracy.
+                  isCorrect: 1
+                - content: oferują bezrobotnym pomoc materialną.
+            - body: >
+                W Polsce na początku lat 90. na chipsy przerabiano kilka tysięcy ton ziemniaków rocznie.
+                Teraz – 270 tys. ton. Statystyczny Polak zjada w ciągu roku kilogram chipsów, Brytyjczyk aż
+                pięć kilo.
+              title: "Z tego tekstu wynika, że:"
+              choices:
+                - content: Polacy i Brytyjczycy jedzą najwięcej chipsów.
+                  isCorrect: 1
+                - content: w Polsce je się coraz więcej chipsów.
+                - content: Polacy jedzą chipsy od lat 90.
+            - body: >
+                Doskonale pamiętam, jak ciężko mi było z dala od Polski. Pierwsze kilka lat w USA to była
+                ciągła tęsknota i brak przyjaciół. Wtedy, w ciężkich chwilach ciocia powtarzała mi stale, że
+                jak mi się tu nie podoba, to mogę wracać.
+              title: "Z tego tekstu wynika, że narrator:"
+              choices:
+                - content: miał ciotkę w USA.
+                - content: tęsknił za USA.
+                - content: wyemigrował z USA.
+                  isCorrect: 1
+            - body: >
+                Jeśli chcesz wziąć kredyt studencki, musisz mieć konto w banku. Stypendia i pieniądze od
+                rodziców lepiej trzymać na koncie niż w skarpecie schowanej w akademiku.
+              title: "Ten tekst informuje, że:"
+              choices:
+                - content: każdy student musi mieć konto.
+                - content: należy przechowywać pieniądze w domu akademickim.
+                - content: banki dadzą kredyt tylko właścicielowi konta.
+        - title: >
+            Proszę przeczytać tekst, a następnie zaznaczyć: P – gdy zdanie jest prawdziwe,
+            F – gdy jest fałszywe.
+          format: BOOLEAN_TASK
+          content: >
+            Ola Różycka, studentka psychologii, przez cały ubiegły rok opiekowała się Martiną,
+            Włoszką z Bolonii, która przyjechała na Uniwersytet Warszawski studiować ekonomię.
+            – Pomagałam jej załatwiać sprawy w dziekanacie, zapisać się do biblioteki, trafić na
+            zajęcia, znaleźć mieszkanie. Samej byłoby jej trudno, bo nie znała polskiego – wspomina Ola.
+            Była mentorką – osobą, która pomaga zagranicznym stypendystom odnaleźć się na uczelni
+            i w mieście. Takiego opiekuna dostaje każdy cudzoziemiec na Uniwersytecie Warszawskim.
+            Podobnie też jest w Szkole Głównej Handlowej.
+
+            Ten zwyczaj przyszedł z zachodnich uczelni, na które co roku przyjeżdża wielu
+            studentów z całego świata. Coraz więcej przybywa ich też do Polski. Polscy studenci zgłaszają
+            się, żeby polepszyć swój angielski albo inny język. W ankiecie zgłoszeniowej podają, jaki język
+            znają i jaka ma być płeć ich podopiecznego. Bo mentorowanie szybko zmienia się we
+            wspólne spotkania, imprezy, przyjaźń, a czasem nawet w coś więcej… 
+
+            Kiedy zdarza się, że opiekun nie może zająć się studentem, do akcji wkracza Grupa
+            Szybkiego Reagowania. Zastępuje mentora, by student obcokrajowiec nie czuł się zagubiony
+            w mieście.
+
+            – Zaprzyjaźniłyśmy się z Martiną. Spędziła w moim domu Wielkanoc. Chociaż moja
+            mama nie zna włoskiego ani angielskiego, świetnie się porozumiewała z Martiną i bardzo się
+            polubiły – wspomina Ola. Mentorska znajomość przetrwała wakacje: piszą do siebie maile, a
+            za pół roku będą się spotykały we Włoszech. Ola wyjeżdża na stypendium do Rzymu. I tam,
+            jako zagraniczna stypendystka, będzie miała okazję zobaczyć, jak wygląda praca mentora od
+            drugiej strony.
+
+          questions:
+            - title: Ola poznała Martinę na wakacjach, które spędzała w Bolonii
+              type: boolean
+              isPreview: 1
+              isCorrect: 0
+            - title: Martina mogła sobie nie poradzić sama ze znalezieniem mieszkania.
+              type: boolean
+              isCorrect: 1
+            - title: Aby być mentorem, należy bardzo dobrze znać angielski.
+              type: boolean
+              isCorrect: 0
+            - title: Mentorowanie to nie tylko obowiązki.
+              type: boolean
+              isCorrect: 1
+            - title: Grupa Szybkiego Reagowania organizuje zajęcia na uczelni.
+              isCorrect: 0
+              type: boolean
+            - title: Włoszka spędziła święta w polskiej rodzinie.
+              isCorrect: 1
+              type: boolean
+            - title: Mama Oli nie rozumiała przyjaciółki córki.
+              isCorrect: 0
+              type: boolean
+            - title: Ola będzie mentorką we Włoszech.
+              isCorrect: 0
+              type: boolean
+        - title: >
+            Proszę przeczytać podany poniżej tekst i dopasować usunięte z niego
+            fragmenty zgodnie z przykładem.
+          format: FILL_IN_THE_BLANK
+          content: >
+            Obecnie większość czasu spędzamy w {item}
+            . Unikamy wysiłku, nie chodzimy na
+            piechotę, a w wolnym czasie zamiast na przykład pójść {item} oglądać telewizję. Tak jest
+            nam wygodniej.
+            Jeśli chcesz poprawić kondycję fizyczną bez {item}
+            , wybierz łatwy i tani sposób, czyli
+            spacer. Ruch potrzebny jest wszystkim – {item}
+            . Największym plusem spacerów jest to,
+            że nie musimy kupować żadnego specjalistycznego sprzętu. Trzeba mieć tylko wygodne buty.
+            Co więcej, {item}
+            i przy każdej pogodzie. Najlepiej spacerować w {item}
+            i miejskiego
+            ruchu – człowiek najlepiej wypoczywa na łonie przyrody.
+            Już jedna godzina spaceru dziennie {item}
+            . Powinien to być jednak wtedy
+            intensywny marsz, w tempie 5 – 6 kilometrów na godzinę.
+            Odmianą spaceru jest popularny także w Polsce nordic walking, czyli dynamiczny
+            marsz z kijkami. Ogromną zaletą tej formy ruchu jest to, że można go polecić wszystkim, a
+            zwłaszcza {item}
+            . Jest on bowiem bezpieczną formą aktywności, połączonej ze
+            spędzaniem czasu na świeżym powietrzu.
+          questions:
+            - content:
+              choices:
+                - content: "pomieszczeniach: mieszkaniach, biurach, fabrykach"
+              isPreview: 1
+            - content:
+              choices:
+                - content: na spacer, wolimy siedzieć w domu i
+            - content:
+              choices:
+                - content: wydawania pieniędzy na siłownię czy aerobik
+            - content:
+              choices:
+                - content: dzieciom, ludziom młodym oraz osobom starszym
+            - content:
+              choices:
+                - content: na spacer można się wybrać o każdej porze dnia
+            - content:
+              choices:
+                - content: miejscach zielonych i spokojnych, z daleka od dróg
+            - content:
+              choices:
+                - content: zwiększa naszą kondycję fizyczną
+            - content:
+              choices:
+                - content: osobom starszym, z różnymi problemami zdrowotnymi
+
+        - title: >
+            Proszę – zgodnie z podanym przykładem – połączyć wypowiedzi z kolumny I
+            z wypowiedziami z kolumny II. Odpowiedzi proszę wpisać do tabelki.
+          instruction: Jak zachęcić dziecko do czytania? Oto kilka wskazówek dla rodziców
+          format: CROSS_WORD
+          questions:
+            - title: List do autora
+              choices:
+                - content: Starsze dzieci zachęćcie do napisania listu lub e-maila do pisarza, którego książka je zaciekawiła.
+              isPreview: 1
+            - title: Lektura w wannie
+              choices:
+                - content: Na czytanie wykorzystujcie różne okoliczności. Może to być czas posiłków lub nawet kąpiel.
+            - title: Własna półka na książki
+              choices:
+                - content: Miejsce, gdzie stoją ulubione książki, powinno być na odpowiedniej wysokości dla dziecka.
+            - title: Propozycja nie wybór
+              choices:
+                - content: Nie pytajcie, czy dziecko woli czytanie, czy oglądanie telewizji. Po prostu siadajcie obok siebie i czytajcie.
+            - title: Wieczór z bajką
+              choices:
+                - content: Zachęcajcie dzieci, aby czytały na głos. Możecie zaplanować raz w miesiącu kolację z historią czytaną przez dziecko.
+            - title: Dobry przykład
+              choices:
+                - content: Dziecko, które widzi rodziców z książką, chętniej będzie szukać czegoś do czytania.
+            - title: Cierpliwość
+              choices:
+                - content: Pamiętajcie, że słuchania należy się uczyć. Nie denerwujcie się, gdy na początku dziecko nie potrafi się skoncentrować.
+            - title: Nie ma oglądania bez czytania
+              choices:
+                - content: Umówcie się z dzieckiem, że będzie mogło posiedzieć 15 minut przed telewizorem, jeśli spędzi 30 minut z książką.
+
+        - title: >
+            Proszę wybrać i podkreślić najlepszą z trzech możliwości podanych
+            w nawiasach zgodnie z przykładem.
+          format: FILL_IN_THE_CHOICE
+          content: >
+            W drugą rocznicę śmierci Marka Grechuty {item}
+            w Krakowie pierwsza edycja festiwalu jego twórczości pt.: „Korowód”.
+            Anna Treter – krakowska piosenkarka i szefowa Fundacji „Piosenkarnia” opowiada:
+            Żona Marka dobrze {item} koncerty piosenki literackiej przygotowywane przez
+            Fundację i poprosiła mnie, żebym {item} koncert w drugą
+            rocznicę śmierci jej męża. Propozycja ta zgadzała się z celami Fundacji, {item} 
+            postanowiłam zrealizować ten pomysł. Najpierw odbył się konkurs na
+            interpretację piosenek Marka Grechuty, a {item}
+            zdecydowaliśmy się
+            dołączyć nowe elementy do przygotowywanego koncertu .
+            {item}
+            festiwalu będzie można nie tylko słuchać muzyki. Przygotowujemy
+            również {item}
+            obrazów Marka Grechuty. Natomiast fotograf
+            – Adam Bujak pokaże publicznie po raz pierwszy swoje archiwalne {item},
+            które robił Markowi Grechucie.
+            Festiwal zakończy modlitwa w jednym z krakowskich {item},
+            a potem wszyscy przejdą na cmentarz Rakowiecki, aby tam przy pomniku Marka Grechuty
+            złożyć kwiaty.
+          questions:
+            - choices:
+                - content: znajdzie się
+                - content: odbędzie się
+                - content: wystąpi
+              isPreview: 1
+            - choices:
+                - content: wie
+                - content: umie
+                - content: zna
+                  isCorrect: 1
+            - choices:
+                - content: zorganizowała
+                  isCorrect: 1
+                - content: zbudowała
+                - content: zagrała
+            - choices:
+                - content: dlatego
+                  isCorrect: 1
+                - content: ponieważ
+                - content: dlaczego
+            - choices:
+                - content: późno
+                - content: dalej
+                - content: potem
+                  isCorrect: 1
+            - choices:
+                - content: Dla
+                - content: Po
+                - content: Na
+                  isCorrect: 1
+            - choices:
+                - content: wystawę
+                  isCorrect: 1
+                - content: przedstawienie
+                - content: spektakl
+            - choices:
+                - content: zdjęcia
+                  isCorrect: 1
+                - content: płyty
+                - content: rysunki
+            - choices:
+                - content: teatrów
+                - content: kościołów
+                  isCorrect: 1
+                - content: parków
+
+    ##### Grammar
+    #####
+    - title: gramatyka
+      format: POLISH_B1_GRAMMAR
+      uniqueGroupIdentifier: grammar
+      header: >
+        <div class="polish-b1-listenning-intro">
+        <div>
+          © Państwowa Komisja ds. Poświadczania Znajomości
+          <br /> Języka Polskiego jako Obcego
+        </div>
+
+        <div class="section-title">POPRAWNOŚĆ GRAMATYCZNA</div>
+        <div class="level">B1</div>
+        <div class="count-tasks">LICZBA ZADAŃ: 7</div>
+        <div class="tasks-time">CZAS: 45 minut</div>
+        <div class="name-and-lastname">Imię i nazwisko: _______________</div>
+        <div class="task-footer-info">
+          Po upływie 45 minut podpisane testy zostaną zebrane i nastąpi
+          przerwa przed dalszą częścią egzaminu.
+        </div>
+
+        
+        </div>
+      tasks:
+        - title: >
+            Proszę podkreślić poprawną formę wyrazów podanych w nawiasach zgodnie
+            z przykładem (odmiana rzeczowników, przymiotników, zaimków oraz przyimki)
+          content: >
+            Marta i Przemek bardzo lubią {item}
+            a szczególnie dumni są z {item}
+            , w którym {item} odbywa się międzynarodowy festiwal komedii. Chętnie
+            spędzają czas w miłych kawiarniach, gdzie można posiedzieć ze znajomymi i wypić z {item} filiżankę kawy.
+            Na turystów czekają tu {item}
+            . „W {item} – mówią – jest
+            jeden z najnowocześniejszych ogrodów zoologicznych w Europie. Można tu zobaczyć dużo
+            {item}
+            6 i długo {item} obserwować. ZOO leży w centrum
+            {item}
+            , w którym znajduje się wiele starych drzew.
+            A jeśli ktoś pójdzie {item}
+            rzekę , to znajdzie tam tereny sportowe, gdzie dzieci
+            i dorośli mogą grać {item} piłkę i odpoczywać.”
+          format: FILL_IN_THE_CHOICE
+          questions:
+            - choices:
+                - content: swoje miasto
+                  isCorrect: 1
+                - content: swoich miast
+                - content: swoim miastem
+            - choices:
+                - content: dobry teatr
+                - content: dobrego teatru
+                  isCorrect: 1
+                - content: dobrym teatrem
+            - choices:
+                - content: późnego lata
+                - content: późnym latem
+                  isCorrect: 1
+                - content: późnym lecie
+            - choices:
+                - content: ich
+                - content: nich
+                - content: nimi
+                  isCorrect: 1
+            - choices:
+                - content: wygodnych hoteli
+                - content: wygodne hotele
+                  isCorrect: 1
+                - content: wygodnymi hotelami
+            - choices:
+                - content: nasze miasto
+                - content: naszym miastem
+                - content: naszym mieście
+                  isCorrect: 1
+            - choices:
+                - content: zwierzęta
+                - content: zwierząt
+                  isCorrect: 1
+                - content: zwierzęciu
+            - choices:
+                - content: one
+                - content: je
+                  isCorrect: 1
+                - content: ich
+            - choices:
+                - content: dużym parkiem
+                - content: dużego parku
+                  isCorrect: 1
+                - content: dużym parku
+            - choices:
+                - content: do
+                - content: nad
+                  isCorrect: 1
+                - content: na
+            - choices:
+                - content: na
+                - content: z
+                - content: w
+                  isCorrect: 1
+        - title: >
+            Proszę podkreślić poprawną formę wyrazów podanych w nawiasach zgodnie
+            z przykładami (stopniowanie przymiotników i przysłówków).
+          format: FILL_IN_THE_CHOICE
+          content: >
+            Zimą {item} niż latem czujemy się zmęczeni, a nasze ogólne
+            samopoczucie jest zwykle {item}
+            . Dzieje się tak przede wszystkim
+            dlatego, że latem dzień jest {item}
+            i mamy wtedy zdecydowanie
+            {item} kontaktu ze słońcem niż w miesiącach zimowych. Zimą także
+            {item}
+            jest kupić świeże warzywa i owoce, które stanowią przecież
+            {item}
+            źródło witamin i minerałów. Ale zima ma też swoje zalety – to
+            właśnie wtedy Polacy obchodzą święta, które lubią {item} w całym
+            roku!
+          questions:
+            - choices:
+                - content: często
+                - content: częściej
+                  isCorrect: 1
+                - content: najczęściej
+              isPreview: 1
+            - choices:
+                - content: gorzej
+                - content: gorsze
+                  isCorrect: 1
+                - content: najgorzej
+              isPreview: 1
+            - choices:
+                - content: dłuższy
+                  isCorrect: 1
+                - content: dłużej
+                - content: dłuższym
+            - choices:
+                - content: większego
+                - content: większych
+                - content: więcej
+                  isCorrect: 1
+            - choices:
+                - content: trudniej
+                  isCorrect: 1
+                - content: trudniejsze
+                - content: trudne
+            - choices:
+                - content: najlepiej
+                - content: najlepsze
+                  isCorrect: 1
+                - content: lepszą
+            - choices:
+                - content: bardzo
+                - content: bardziej
+                - content: najbardziej
+                  isCorrect: 1
+        - title: >
+            Proszę podkreślić poprawną formę wyrazów podanych w nawiasach zgodnie
+            z przykładem (aspekt i tryby).
+          format: FILL_IN_THE_CHOICE
+          content: >
+            <b>Marcin:</b> Basiu, może {item} mnie z Magdą
+            we Wrocławiu.
+
+            <br />
+            <b>Basia:</b> Bardzo chętnie. Gdybyśmy tylko mogły znaleźć pokój w niedrogim hotelu,
+            {item}
+            z ochotą. Wiesz Marcin,
+            {item} nam proszę coś niedaleko od centrum.
+
+            <br />
+            <b>Marcin:</b> Dobrze, zaraz razem z Piotrem {item}
+            do hotelu „Arca”. Jeśli {item} wolny
+            pokój, to go {item}
+
+            <br />
+            <b>Basia:</b> Świetnie, {item}
+            z Magdą na informację od
+            Ciebie.
+
+            <br />
+            <b>Marcin:</b> {item}
+            się ze mną koniecznie jutro rano,
+            to Ci {item}.
+            <br />
+            <b>Basia:</b> A gdybyśmy nie {item} pokoju?
+            <br />
+            <b>Marcin:</b> Spokojnie, nie {item} na wszystko tak pesymistycznie.
+          questions:
+            - isPreview: 1
+              choices:
+                - content: odwiedziłybyście
+                  isCorrect: 1
+                - content: odwiedzałybyście
+                - content: odwiedzajcie
+            - choices:
+                - content: przyjeżdżałybyśmy
+                - content: przyjechałybyśmy
+                  isCorrect: 1
+                - content: przyjedźmy
+            - choices:
+                - content: wynajmiesz
+                - content: wynajmij
+                  isCorrect: 1
+                - content: wynajmuj
+            - choices:
+                - content: zadzwonimy
+                  isCorrect: 1
+                - content: zadzwonilibyśmy
+                - content: dzwonilibyśmy
+            - choices:
+                - content: znajdźmy
+                - content: znajdziemy
+                  isCorrect: 1
+                - content: będziemy znajdować
+            - choices:
+                - content: zarezerwowalibyśmy
+                - content: rezerwujemy
+                  isCorrect: 1
+                - content: zarezerwujemy
+            - choices:
+                - content: czekamy
+                  isCorrect: 1
+                - content: czekałybyśmy
+                - content: poczekajmy
+            - choices:
+                - content: Skontaktujesz
+                - content: Skontaktuj
+                  isCorrect: 1
+                - content: Kontaktowałabyś
+            - choices:
+                - content: będę odpowiadał
+                - content: odpowiedziałbym
+                - content: odpowiem
+                  isCorrect: 1
+            - choices:
+                - content: dostawały
+                - content: dostały
+                  isCorrect: 1
+                - content: dostałyby
+            - choices:
+                - content: patrz
+                  isCorrect: 1
+                - content: popatrz
+                - content: patrzysz
+        - title: >
+            Proszę zapytać o podkreśloną część zdania zgodnie z podanymi przykładami.
+          format: FILL_IN_SENTENCE
+          questions:
+            - title: >
+                To jest zabawka Karoliny.
+                <br />
+                – {item} to jest zabawka?
+                <br />
+                – Karoliny.
+              isPreview: 1
+              choices:
+                - correctAnswer: Czyja
+            - title: >
+                Łukasz dowiedział się o tym z gazety.
+                <br />
+                – {item} Łukasz się o tym dowiedział?
+                <br />
+                – Z gazety.
+              choices:
+                - correctAnswer: skąd
+            - title: >
+                Agata chce porozmawiać tylko z tym nowym studentem.
+                <br />
+                – {item} studentem Agata chce porozmawiać?
+                <br />
+                – Z tym nowym.
+              choices:
+                - correctAnswer: z którym
+                  alternateCorrectAnswer1: z kim
+            - title: >
+                Anka poszła do swojego pokoju po książkę telefoniczną. 
+                <br />
+                – {item} Anka poszła do swojego pokoju?
+                <br />
+                – Po książkę telefoniczną.
+              choices:
+                - correctAnswer: po co
+                  alternateCorrectAnswer1: dlaczego
+            - title: >
+                Oni nie lubią filmów historycznych.
+                <br />
+                – {item} filmów oni nie lubią?
+                <br />
+                – Historycznych.
+              choices:
+                - correctAnswer: jakich
+            - title: >
+                Marcin potrzebuje nowego roweru.
+                <br />
+                – {item} potrzebuje Marcin?
+                <br />
+                – Nowego roweru.
+              choices:
+                - correctAnswer: czego
+        - title: >
+            Proszę uzupełnić tekst poprawnymi formami wyrazów podanych w nawiasach
+            zgodnie z podanym przykładem (czas teraźniejszy i przeszły).
+          format: FILL_IN_TRANSFORM
+          content: >
+            <b>Dziennikarz:</b> Panowie, miesiąc temu zdaliście
+            {item} maturę i teraz musicie
+            {item}
+            zdecydować, co robić dalej. Jakie są wasze plany?
+
+            <br />
+
+            <b>Marcin:</b> Kiedy ja i moi koledzy {item} małymi chłopcami,
+            {item}
+            zostać policjantami. Ja nie {item} 
+            swoich planów do dzisiaj i nadal {item}
+            studiować
+            w Wyższej Szkole Policyjnej. Teraz jednak{item} przerwę
+            w nauce i najbliższy rok {item}
+            zamiar poświęcić na pracę
+            i treningi. Siostra i jeden z moich braci jeszcze się {item},
+            a najmłodszy Maciek {item} do przedszkola, więc rodzice nie
+            {item} dłużej pomagać mi finansowo. Może jednak nie będzie tak
+            źle - {item} wczoraj ogłoszenie, że w restauracji na mojej
+            ulicy potrzebny jest kelner.
+          questions:
+            - isPreview: 1
+              choices:
+                - content: zdać
+                  correctAnswer: zdaliście
+            - title:
+              isPreview: 1
+              choices:
+                - content: musieć
+                  correctAnswer: musicie
+            - title:
+              choices:
+                - content: być
+                  correctAnswer: byliśmy
+            - title:
+              choices:
+                - content: chcieć
+                  correctAnswer: chcieliśmy
+            - title:
+              choices:
+                - content: zmienić
+                  correctAnswer: zmieniłem
+            - title:
+              choices:
+                - content: zamierzać
+                  correctAnswer: zamierzam
+            - title:
+              choices:
+                - content: planować
+                  correctAnswer: planuję
+            - title:
+              choices:
+                - content: mieć
+                  correctAnswer: mam
+            - title:
+              choices:
+                - content: uczyć
+                  correctAnswer: uczą
+            - title:
+              choices:
+                - content: chodzić
+                  correctAnswer: chodzi
+            - title:
+              choices:
+                - content: móc
+                  correctAnswer: mogą
+            - title:
+              choices:
+                - content: ja – widzieć
+                  correctAnswer: widziałem
+        - title: >
+            V a. Proszę uzupełnić tekst poprawnymi formami wyrazów podanych w nawiasach
+            zgodnie z podanym przykładem (czas teraźniejszy i przyszły).
+          format: FILL_IN_TRANSFORM
+          content: >
+            Już na jesieni często rozmawiamy
+            {item} o tym, dokąd wybierzemy się
+            {item} na wakacje w przyszłym roku.
+            Anna i Piotr teraz {item}
+            w domu kawę i {item} wycieczkę do Hiszpanii. Jeżeli oni tam w przyszłym roku
+            {item}
+            , to najpierw {item} 
+            kilka
+            dni nad morzem. Piotr {item} wziąć z Polski deskę surfingową, a
+            Anna {item} po prostu opalić się na czekoladowo. Potem
+            {item}
+            czas na zwiedzanie. Anna i Piotr nie
+            {item} jeszcze, jaką trasę wycieczki wybrać.
+            Piotr: Ja {item}
+            jutro z biblioteki jakiś dobry przewodnik, a
+            ty, Aniu, {item} poprosić o radę swojego kolegę, który był w
+            Hiszpanii podczas zeszłych wakacji
+          questions:
+            - isPreview: 1
+              choices:
+                - content: my – rozmawiać
+                  correctAnswer: rozmawiamy
+            - isPreview: 1
+              choices:
+                - content: my – wybrać się
+                  correctAnswer: wybierzemy się
+            - choices:
+                - content: pić
+                  correctAnswer: piją
+            - choices:
+                - content: planować
+                  correctAnswer: planują
+            - choices:
+                - content: pojechać
+                  correctAnswer: pojadą
+            - choices:
+                - content: spędzić
+                  correctAnswer: spędzą
+            - choices:
+                - content: chcieć
+                  correctAnswer: chce
+            - choices:
+                - content: zamierzać
+                  correctAnswer: zamierza
+            - choices:
+                - content: przyjść
+                  correctAnswer: przyjdzie
+            - choices:
+                - content: wiedzieć
+                  correctAnswer: wiedzą
+            - choices:
+                - content: wypożyczyć
+                  correctAnswer: wypożyczę
+            - choices:
+                - content: móc
+                  correctAnswer: możesz
+        - title: >
+            Proszę uzupełnić tekst wyrazami z ramki zgodnie z podanym przykładem.
+            Uwaga! Jeden wyraz w ramce jest niepotrzebny.
+          format: FILL_IN_FROM_LIST
+          content: >
+            Nasz sąsiad pracuje w Urzędzie Miasta {item}
+            jest z tej pracy bardzo zadowolony.
+            {item} w dzieciństwie marzył o karierze aktora, wybrał studia na
+            Wydziale Prawa i Administracji. Na początku nie był pewien, {item}
+            to
+            dobry wybór. Po pierwszej praktyce zrozumiał jednak, {item}.
+            właśnie
+            tym chce się zajmować. Ma codziennie kontakt z ludźmi, {item}
+            to jego
+            zdaniem najważniejsze. {item}
+            miał wybierać jeszcze raz, na pewno
+            zrobiłby to samo.
+
+          questions:
+            - choices:
+                - correctAnswer: i
+              isPreview: 1
+            - choices:
+                - correctAnswer: chociaż
+            - choices:
+                - correctAnswer: czy
+            - choices:
+                - correctAnswer: że
+            - choices:
+                - correctAnswer: a
+            - choices:
+                - correctAnswer: gdyby
+            - choices:
+                - correctAnswer: ale
+        - title: >
+            Proszę podkreślić jeden z przyimków podanych w nawiasach zgodnie
+            z przykładem.
+          content: >
+            Każdy, kto przyjeżdża {item}
+            Londynu, doskonale wie, że wszędzie trzeba
+            poruszać się lewą stroną. – To jednak nie jest {item} mnie największym problemem –
+            mówi Marek, student ekonomii. – Londyn jest tak ogromny, że zawsze muszę mieć {item}
+            sobie mapę. Komunikacyjną zaletą stolicy Wielkiej Brytanii jest rozbudowana sieć metra.
+            – Kiedy przyjechałam tu {item}
+            raz pierwszy, to właśnie londyńskie metro najbardziej mi
+            się spodobało – mówi Karolina, kelnerka {item}
+            Lublina.
+            - Nawet jeśli nie zna się miasta, wystarczy mieć mapkę metra i można poruszać się {item} 5 kłopotów – uważa Karolina.
+          format: FILL_IN_THE_CHOICE
+          questions:
+            - isPreview: 1
+              choices:
+                - content: w
+                - content: do
+                  isCorrect: 1
+                - content: na
+
+            - choices:
+                - content: dla
+                  isCorrect: 1
+                - content: do
+                - content: u
+            - choices:
+                - content: ze
+                - content: przy
+                  isCorrect: 1
+                - content: na
+            - choices:
+                - content: na
+                - content: za
+                - content: po
+                  isCorrect: 1
+            - choices:
+                - content: od
+                - content: z
+                  isCorrect: 1
+                - content: znad
+            - choices:
+                - content: obok
+                - content: przez
+                - content: bez
+                  isCorrect: 1
+        - title: >
+            Proszę użyć wyrazu podanego w nawiasie i przekształcić zdanie zgodnie
+            z podanym przykładem tak, by nie zmieniło sensu.
+          format: FILL_IN_SENTENCE
+          questions:
+            - title: >
+                - Dlaczego nie byłeś wczoraj w pracy? <br />
+                - (było) <br />
+                - Dlaczego nie było cię wczoraj w pracy?
+              isPreview: 1
+              choices:
+                - correctAnswer: Dlaczego nie było cię wczoraj w pracy?
+            - title: >
+                - Ewelina nie wie, kim jest ta pani. <br />
+                - (zna) <br />
+                - {item}
+              choices:
+                - correctAnswer: Ewelina nie zna tej pani.
+            - title: >
+                - Jestem starszy niż ty. <br />
+                - (od) <br />
+                - {item}
+              choices:
+                - correctAnswer: Jestem starszy od ciebie.
+            - title: >
+                - Magdę interesują stare fotografie. <br />
+                - (interesuje się) <br />
+                - {item}
+              choices:
+                - correctAnswer: Magda interesuje się starymi fotografiami.
+            - title: >
+                - Michel jest francuskim studentem. <br />
+                - (to) <br />
+                - {item}
+              choices:
+                - correctAnswer: Michel to francuski student.
+            - title: >
+                - 5. Jak nazywa się autor tej powieści? <br />
+                - (napisał) <br />
+                - {item}
+              choices:
+                - correctAnswer: Kto napisał tę powieść.
+    - title: pisanie
+      format: POLISH_B1_WRITING
+      uniqueGroupIdentifier: writing
+      header: >
+        <div class="polish-b1-listenning-intro">
+        <div>
+          © Państwowa Komisja ds. Poświadczania Znajomości
+          <br /> Języka Polskiego jako Obcego
+        </div>
+
+        <div class="section-title">PISANIE</div>
+        <div class="level">B1</div>
+        <div class="count-tasks">LICZBA ZADAŃ: 2</div>
+        <div class="tasks-time">CZAS: 75 minut</div>
+        <div class="name-and-lastname">Imię i nazwisko: _______________</div>
+        <div class="task-footer-info">
+          Po upływie 75 minut podpisane testy zostaną zebrane i nastąpi
+          przerwa przed dalszą częścią egzaminu.
+        </div>
+
+        
+        </div>
+
+      tasks:
+        - format: WRITING_SET
+          questions:
+            - title: Proszę napisać zaproszenie dla nauczyciela lub szefa na swoje urodziny / imieniny, które organizuje Pani / Pan w restauracji.
+              wordCount: 20
+              choices:
+                - content: ""
+            - title: „Wakacje w domu…” . Proszę napisać wypracowanie (esej szkolny).
+              choices:
+                - content: ""
+              wordCount: 180
+        - format: WRITING_SET
+          questions:
+            - title: Proszę napisać życzenia dla przyjaciół z okazji ich ślubu.
+              choices:
+                - content: ""
+              wordCount: 25
+            - title: >
+                Proszę napisać opowiadanie pt. „Jesteśmy razem już trzy lata…”.
+                Proszę wykorzystać zdjęcie. 
+                <br />
+                <img src='{{resource:writing_task2}}' />
+
+              wordCount: 175
+              choices:
+                - content: ""
+              media: ./writing_task2.png
+        - format: WRITING_SET
+          questions:
+            - title: Proszę opisać najpiękniejszy prezent, który dostała Pani / dostał Pan na urodziny lub imieniny.
+              choices:
+                - content: ""
+              wordCount: 60
+            - title: Proszę napisać sprawozdanie (relację) z wycieczki lub podróży.
+              choices:
+                - content: ""
+              wordCount: 140
+    - title: mówienie
+      format: POLISH_B1_SPEAKING
+      uniqueGroupIdentifier: speaking
+      header: >
+        <div class="polish-b1-listenning-intro">
+        <div>
+          © Państwowa Komisja ds. Poświadczania Znajomości
+          <br /> Języka Polskiego jako Obcego
+        </div>
+
+        <div class="section-title">MÓWIENIE</div>
+        <div class="level">B1</div>
+        <div class="tasks-time">CZAS: 15 minut</div>
+        <div class="name-and-lastname">Imię i nazwisko: _______________</div>
+        <div class="task-footer-info">
+          Po upływie 15 minut podpisane testy zostaną zebrane i nastąpi
+          przerwa przed dalszą częścią egzaminu.
+        </div>
+
+        </div>
+      tasks:
+        - title: >
+            Proszę opisać fotografię i przedstawioną na niej sytuację.
+
+            <br />
+            <img src="{{resource:mowienie_task2}}" />
+          format: GENERAL_SPEAKING
+          questions:
+            - choices:
+                - content: ""
+
+        - title: Proszę opisać swoją rodzinę lub rodzinę, o jakiej Pani/Pan marzy.
+          format: GENERAL_SPEAKING
+          questions:
+            - choices:
+                - content: ""
+        - title: >
+            W czasie pobytu w Polsce chce Pani/Pan odwiedzić swoich znajomych we Wrocławiu.
+            W informacji na dworcu kolejowym (PKP) proszę zapytać o pociąg do Wrocławia (godzina,
+            możliwość rezerwacji, cena).
+          format: GENERAL_SPEAKING
+          questions:
+            - choices:
+                - content: ""
